@@ -73,7 +73,7 @@ You may need to include or format your board with SPIFFS or LittleFS support, de
 
 ## 🔧 Setup
 
-1. After downloaded change the code to your Wifi Settings
+1. After downloaded change the code to your Wifi Settings in Line 66
 
    ```bash
-   Line 66 WiFi.begin("SSID Here", "Password here");
+   WiFi.begin("SSID Here", "Password here");
