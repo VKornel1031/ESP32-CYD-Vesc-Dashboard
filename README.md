@@ -34,7 +34,7 @@ Install the following libraries via the Arduino Library Manager:
 
 ## 🔧 Setup
 
-1. **Clone this repository** or download the `.ino` file.
+1. After downloaded change the code to your Wifi Settings
 
    ```bash
-   git clone https://github.com/yourusername/esp32-cyd-vesc-dashboard.git
+   Line 66 WiFi.begin("SSID Here", "Password here");
