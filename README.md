@@ -24,58 +24,46 @@ An ESP32-based dashboard for VESC (Vedder Electronic Speed Controller) devices, 
 
 Install the following libraries via the Arduino Library Manager:
 
-TFT_eSPI
+# TFT_eSPI
 
 📦 Library Name in Library Manager: TFT_eSPI
-
 🔗 TFT_eSPI on GitHub
-
 📌 Note: You will need to configure User_Setup.h inside the library folder to match your display wiring and resolution (typically done once after installing the library).
 
-XPT2046_Touchscreen
+# XPT2046_Touchscreen
 
 📦 Library Name in Library Manager: XPT2046_Touchscreen
-
 🔗 XPT2046_Touchscreen on GitHub
-
 📌 Note: Used for touch input, compatible with SPI-based XPT2046 controllers.
 
-SPI
+# SPI
 
 ✅ Built-in with Arduino and ESP32 core
-
 📌 No installation needed.
 
-Preferences
+# Preferences
 
 ✅ Built-in with the ESP32 Arduino core
-
 📌 Used for saving settings in non-volatile storage (like EEPROM).
 
-WiFi
+# WiFi
 
 ✅ Built-in with ESP32 Arduino core
-
 📌 Used to connect to WiFi networks.
-
-FS & SPIFFS (File System Support)
+# FS & SPIFFS (File System Support)
 
 ✅ Built-in with ESP32 Arduino core
-
 📌 FS is a generic file system API; typically used with SPIFFS or LittleFS depending on your choice.
-
 You may need to include or format your board with SPIFFS or LittleFS support, depending on what you use.
 
-WebServer
+# WebServer
 
 📦 Library Name in Library Manager: ESP32 WebServer (or comes with the ESP32 board support package)
-
 📌 Provides a simple HTTP server.
 
-ESPmDNS
+# ESPmDNS
 
 ✅ Included with ESP32 Arduino core
-
 📌 Enables mDNS (Multicast DNS), allowing your ESP32 to be reached via a name like etc.local instead of IP.
 
 - Any other dependencies specific to your display or sensor setup
